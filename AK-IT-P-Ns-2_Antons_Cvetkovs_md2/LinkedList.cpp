@@ -40,7 +40,6 @@ void LinkedList::pop() {
         output = "Removed coordinates: " + end->getCoordinates();
 
         Coordinates * previous = end->previous; // dabujam pedeja vertibas iepreksejo vertibu
-//        delete end; // izdesam pedejo vertibu
         end = previous; // jauna pedeja vertiba
 
         if (end) end->next = nullptr; // ja pedeja vertiba nav null, tad nodzesam next jaunai pedeja vertibai

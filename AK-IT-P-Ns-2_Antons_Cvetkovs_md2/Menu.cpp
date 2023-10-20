@@ -63,8 +63,10 @@ bool Menu::coordinatesInputIsValid(const string & input) {
     string first_char = input.substr(0, (input.length() - 1) - (input.length() - 2));
     // ja piramis simbols ir +, - vai cipars, tad parbaudam vai ievads ir skaistlis
     if (isdigit(input.at(0)) || first_char == "+" || first_char == "-") {
+        int point_count = 0;
         for (int i = 1; i < input.length(); i++) {
-            if (!isdigit(input[i])) {
+            if (input.at(i) == '.') point_count++;
+            if ((!isdigit(input[i]) && input.at(i) != '.') || point_count > 1) {
                 cout << "\n" << ERR_NOT_A_NUMBER << endl;
                 return false;
             }
