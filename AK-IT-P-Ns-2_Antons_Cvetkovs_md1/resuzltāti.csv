@@ -1,0 +1,25 @@
+﻿Quick Sort Ascending,,,Quick Sort Decending,,,Quick Sort Unsorted,
+Ieraksti,Laiks,,Ieraksti,Laiks,,Ieraksti,Laiks
+10,13,,10,6,,10,20
+20,45,,20,21,,20,69
+40,182,,40,89,,40,276
+80,689,,80,311,,80,1059
+160,2731,,160,1207,,160,4075
+320,10340,,320,5101,,320,15954
+640,43341,,640,21957,,640,66384
+1280,173381,,1280,87329,,1280,265012
+2560,818724,,2560,431145,,2560,1214807
+5120,3193023,,5120,1711645,,5120,4737747
+,,,,,,,
+Rezultāts,,,,,,,
+Datu apjoms,ātrākā,lēnākā,vidējā,,,,
+10,descending,unsorted,ascending,,,,
+20,descending,unsorted,ascending,,,,
+40,descending,unsorted,ascending,,,,
+80,descending,unsorted,ascending,,,,
+160,descending,unsorted,ascending,,,,
+320,descending,unsorted,ascending,,,,
+640,descending,unsorted,ascending,,,,
+1280,descending,unsorted,ascending,,,,
+2560,descending,unsorted,ascending,,,,
+5120,descending,unsorted,ascending,,,,

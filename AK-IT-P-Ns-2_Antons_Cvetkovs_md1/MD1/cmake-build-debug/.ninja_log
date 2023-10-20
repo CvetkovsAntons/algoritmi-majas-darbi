@@ -1,0 +1,7 @@
+# ninja log v5
+11	1638	7186632065799817	CMakeFiles/MD1.dir/GenerateCsv.cpp.obj	e423e37247c4b7f6
+3	599	7186608120576516	CMakeFiles/MD1.dir/main.cpp.obj	d9f5295f66fffc46
+3	1929	7186670350231525	CMakeFiles/MD1.dir/Menu.cpp.obj	ad29ff6b7fc1f870
+6	1750	7186670348430415	CMakeFiles/MD1.dir/QuickSort.cpp.obj	eb33431e64011a56
+1929	2112	7186670352031801	MD1.exe	662998ef943be62
+0	7	0	clean	b26e0f42c341beb7
