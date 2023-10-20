@@ -49,7 +49,7 @@ void LinkedList::pop() {
     system("pause");
 }
 
-void LinkedList::print() {
+void LinkedList::show() {
     string output;
     if (head == nullptr) {
         output = "The queue is empty";

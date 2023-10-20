@@ -12,7 +12,7 @@ public:
     void pop();
     int length();
     bool isFull();
-    void print();
+    void show();
     ~LinkedList();
 
 private:

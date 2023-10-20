@@ -14,7 +14,7 @@ bool Menu::menuAction(const string & input) {
     if (input == I_HELP) menu = M_HELP; // ja tiek ievadits h, tad paradam help lapu
     else if (input == I_COORDINATES) pushCoordinates(); // ja tiek ievadits +x,y, tad pieskiram koordinates rindaa
     else if (input == I_REMOVE) linked_list->pop(); // ja tiek ievadits -, tad iznemam koordinates no rindas
-    else if (input == I_QUEUE) linked_list->print(); // ja tiek ievadits *, tad izvadam visu rindu
+    else if (input == I_QUEUE) linked_list->show(); // ja tiek ievadits *, tad izvadam visu rindu
     else if (input == I_EXIT) return false; // ja tiek ievadits $, tad atgriezam FALSE, partraucot programma darbu
     return true; // atgriezam TRUE, programma turpina darbu
 }
